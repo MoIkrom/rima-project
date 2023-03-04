@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lato&display=swap");
+
+.company {
+  font-family: Arimo;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 45.12px;
+  line-height: 52px;
+  line-height: 100%;
+  fill: Solid;
+  color: #1a1a1a;
+}
+.rima {
+  font-family: Arimo;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 45.12px;
+  line-height: 52px;
+  line-height: 100%;
+  fill: Solid;
+  color: #1a1a1a !important;
+}
+.cursor {
+  cursor: pointer;
+}
+.color-text {
+  color: black;
+}
+.color-text:hover {
+  color: black;
+}
+
+.title {
+  font-family: Arimo !important;
+  font-weight: 700 !important;
+  font-style: bold !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  line-height: 100% !important;
+  fill: Solid !important;
+  color: #1a1a1a !important;
+  padding-bottom: 0px !important;
+}
+.menu {
+  position: relative;
+  /* size: 1px; */
+  /* top: 1rem;
+  left: -17px; */
+  /* visibility: hidden; */
+}
+.no-underline {
+  text-decoration: none;
+}
+
+.cart {
+  width: 18px;
+}
+.toggle {
+  width: 18px;
+  position: relative;
+  left: 25px;
+}
+
+.svg {
+  width: 20px;
+}
+.icon-1 {
+  height: 24px;
+  position: relative;
+  top: 27px;
+}
+.icon-menu {
+  height: 28px;
+  position: relative;
+  top: 9px;
+  left: 12px;
+  /* opacity: 0; */
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    margin-top: 3rem;
+  }
+  .icon {
+    margin: 4rem 2rem 2rem 2rem;
+    justify-content: space-between !important;
+  }
+
+  .navbar-collapse {
+    margin: 2rem;
+  }
+  .toggle {
+    display: none;
+  }
+
+  .pages-shop {
+    justify-content: flex-start !important;
+    gap: 5px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .icon {
+    margin: 4rem 2rem 2rem 2rem;
+    justify-content: space-between !important;
+  }
+  .navbar-collapse {
+    margin: 2rem;
+  }
+  .toggle {
+    display: none;
+  }
+  .pages {
+    justify-content: flex-start !important;
+  }
+  .pages-shop {
+    justify-content: flex-start !important;
+    gap: 5px !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .icon {
+    margin: 4rem 2rem 2rem 2rem;
+    justify-content: space-between !important;
+  }
+  .navbar-collapse {
+    margin: 2rem;
+  }
+  .toggle {
+    display: none;
+  }
+
+  /* . {
+     
+    } */
+}
+
+/* margin-top: 3rem; */
+/* margin: 3rem; */
+/* /* text-decoration: underline; */

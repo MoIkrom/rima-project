@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lato&display=swap");
+
+.stock {
+  height: 11rem;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.Name {
+  color: #1A1A1A;
+  font-family: Arimo;
+  font-weight: 400;
+}
+
+.price {
+  height: 11rem;
+  /* gap: 1rem; */
+  justify-content: space-evenly;
+}
+
+.image-product {
+  width: 100px;
+  height: 100px;
+  margin-right: 2rem;
+}
+
+.name-product {
+  font-size: 12px !important;
+}
+
+.table {
+  margin-bottom: 5rem;
+}
+
+.product {
+  width: 30rem;
+}
+
+.price-title {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .name-product {
+    font-size: 12px !important;
+  }
+
+  .cont-product {
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .image-product {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .cont-product {
+    font-size: 10px !important;
+    padding: 16px;
+  }
+
+  .check {
+    width: 15px;
+  }
+
+  .text-stock {
+    font-size: 12px;
+    position: relative;
+    left: 1px;
+  }
+
+  .price {
+    height: 7rem;
+    font-size: 11px;
+  }
+
+  .delete {
+    width: 64px;
+    height: 30px;
+    font-size: 11px;
+  }
+}

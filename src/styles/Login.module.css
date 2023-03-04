@@ -1,0 +1,275 @@
+.page-title {
+  position: relative;
+  background-image: url(../assets/background/bg.png);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.form__bar {
+  position: relative;
+}
+
+.icon-eye {
+  position: absolute;
+  right: 185px;
+  top: 85px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.input__ {
+  width: 80%;
+}
+
+.page-title::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: white;
+  z-index: -1;
+  opacity: .9;
+}
+
+.page-title h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #1A1A1A;
+}
+
+.page-title p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1A1A1A;
+  padding: 1rem 0;
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.login-account h1,
+.regist-account h1 {
+  color: #B4B4B4;
+  font-size: 2.5rem;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  padding-bottom: .5rem;
+}
+
+.login-account h1:hover,
+.regist-account h1:hover {
+  color: #1A1A1A;
+  border-bottom: 2px solid #B4B4B4;
+}
+
+.login-account h1.selected {
+  color: #1A1A1A;
+  border-bottom: 2px solid #B4B4B4;
+}
+
+.form-container {
+  padding: 2rem 0 7rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .title-form {
+  padding-bottom: 2rem;
+}
+
+.form .title-form h1 {
+  font-size: 2.5rem;
+  color: #1A1A1A;
+  font-weight: 400;
+}
+
+.form .form-login form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.form .form-login input {
+  padding: 1rem;
+  border: 1px solid #CECECE;
+  max-width: 75%;
+}
+
+.form .form-login p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #D25B5B;
+  cursor: pointer;
+  user-select: none;
+}
+
+.form .btn-login {
+  padding-top: 1rem;
+}
+
+.form .btn-login button {
+  border: none;
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  padding: .5rem 2rem;
+}
+
+.form .btn-login button:active {
+  position: relative;
+  top: .2rem;
+}
+
+/* .error {
+  color: red;
+  text-align: left;
+  padding-left: 8rem;
+} */
+
+/* responsive */
+
+@media screen and (max-width:768px) {
+  .account {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .form-container {
+    padding: 2rem;
+  }
+
+
+}
+
+@media screen and (max-width:576px) {
+  .page-title p {
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .page-title h1 {
+    font-size: 2.5em;
+  }
+
+  .form-container {
+    padding: 2rem;
+  }
+
+  .account {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  .login-account h1,
+  .regist-account h1 {
+    font-size: 1rem;
+  }
+
+  .form .title-form {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .form .title-form h1 {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .form .form-login input {
+    max-width: 100%;
+  }
+
+  .form .form-login p {
+    font-size: 13px;
+    padding: 3px 0px 5px 0px;
+    text-align: center;
+  }
+
+  .form .btn-login button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+
+  .icon-eye {
+    right: 155px;
+    top: 85px;
+  }
+}
+
+
+
+@media screen and (max-width:992px) {
+
+  .icon-eye {
+    right: 140px;
+    top: 85px;
+  }
+}
+
+@media screen and (max-width:800px) {
+
+  .icon-eye {
+    right: 220px;
+    top: 85px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .icon-eye {
+    right: 220px;
+    top: 85px;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  .icon-eye {
+    right: 185px;
+    top: 85px;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .icon-eye {
+    right: 185px;
+    top: 85px;
+  }
+}
+
+@media screen and (max-width:577px) {
+
+  .icon-eye {
+    right: 140px;
+    top: 85px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .input__ {
+    width: 100%;
+  }
+
+  .icon-eye {
+    right: 12px;
+    top: 85px;
+  }
+}

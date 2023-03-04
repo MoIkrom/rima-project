@@ -1,0 +1,83 @@
+.breadcrumb__bar {
+    background-image: url("../assets/background/bg.png");
+    height: 250px;
+    padding: 40px 80px;
+}
+
+.breadcrumb a {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.self__bar {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.input_ {
+    width: 100%;
+    height: 70px;
+    padding: 0 25px;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+}
+
+.input_phone {
+    height: 70px;
+    border: none;
+    border-left: 1px solid #CECECE;
+}
+
+.input_group {
+    border: 1px solid #CECECE;
+}
+
+.select_phone {
+    border: none;
+}
+
+.select_bank {
+    height: 75px;
+}
+
+.btn_checkout {
+    background: #1A1A1A;
+    padding: 17px 27px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /*Big smartphones [426px -> 600px]*/
+    .self__bar {
+        width: 90%;
+    }
+
+    .select_phone {
+        width: 90px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    /*Big smartphones [426px -> 600px]*/
+    .self__bar {
+        width: 90%;
+    }
+
+    .select_phone {
+        width: 70px !important;
+    }
+}

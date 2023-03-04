@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Open+Sans&family=Playfair+Display:wght@400;700&display=swap');
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Arimo',
+    sans-serif; */
+
+}
+
+/* reset */
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0px !important;
+}
+
+
+html {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+.slick-dots li button:before {
+  font-size: 15px !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#floatingInputValue:focus {
+  outline: none;
+}

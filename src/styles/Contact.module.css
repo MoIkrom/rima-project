@@ -1,0 +1,55 @@
+.breadcrumb__bar {
+    background-image: url("../assets/background/bg.png");
+    height: 250px;
+    padding: 40px 80px;
+}
+
+.breadcrumb a {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.contact {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.send {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 80px;
+    background: #1A1A1A;
+    margin-top: 50px;
+}
+
+.input__ {
+    height: 42px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+}
+
+.input__:focus,
+.text_:focus {
+    outline: none;
+}
+
+.text_ {
+    border: none;
+    border-bottom: 2px solid black;
+}

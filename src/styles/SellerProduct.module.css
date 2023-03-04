@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lato&display=swap");
+
+.cont-fluid {
+  background-image: url("../assets/background/bg.png");
+}
+
+.container .status-product {
+  text-align: center;
+}
+
+.profile {
+  font-weight: 400;
+  font-family: Arimo;
+  font-style: Regular;
+  font-size: 56px;
+  line-height: 64px;
+  line-height: 100%;
+  vertical-align: Top;
+  fill: Solid #1a1a1a;
+}
+
+.text-profile {
+  font-weight: 400;
+  margin-top: 1.6rem;
+  font-family: Arimo;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 64px;
+  line-height: 100%;
+  vertical-align: Top;
+  fill: Solid #1a1a1a;
+}
+
+.stock {
+  height: 11rem;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.price {
+  height: 11rem;
+  /* gap: 1rem; */
+  justify-content: space-evenly;
+}
+
+.table {
+  margin-bottom: 5rem;
+}
+
+.product {
+  width: 30rem;
+}
+
+.price-title {
+  text-align: center;
+}
+
+.title {
+  font-family: arimo;
+  font-size: 20px;
+}
+
+.color-text {
+  color: #1a1a1a;
+  font-family: arimo;
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 500;
+}
+
+.color-text:hover {
+  color: #1a1a1a;
+}
+
+.menu {
+  color: #1a1a1a !important;
+}
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: #000000 !important;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.color {
+  color: #000000 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    margin-left: 0px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .color-text {
+    color: #1a1a1a;
+    font-family: arimo;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 500;
+  }
+
+  .color-text:hover {
+    color: #1a1a1a;
+  }
+  .title {
+    font-size: 14px;
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .color-text {
+    display: flex;
+    align-items: center;
+    color: #1a1a1a;
+    font-family: arimo;
+    font-size: 12px;
+    font-style: bold;
+    font-weight: 500;
+  }
+
+  .color-text:hover {
+    color: #1a1a1a;
+  }
+}

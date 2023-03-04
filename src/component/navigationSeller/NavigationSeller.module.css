@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lato&display=swap");
+
+.cursor {
+  cursor: pointer;
+}
+.color-text {
+  color: #1a1a1a;
+  font-family: arimo;
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 500;
+}
+.color-text:hover {
+  color: #1a1a1a;
+}
+
+#dropdown-basic {
+  border: none;
+}

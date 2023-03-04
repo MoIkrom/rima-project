@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-title {
+  position: relative;
+  background-image: url(../assets/background/bg.png);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.page-title::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: white;
+  z-index: -1;
+  opacity: .9;
+}
+
+.page-title h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #1A1A1A;
+}
+
+.page-title p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1A1A1A;
+  padding: 1rem 0;
+}
+
+.form-container {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  max-width: 1440px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.form-container .chat-box, .form-container .chat-box-middle {
+  border: 2px solid #bababa;
+  height: 8em;
+  width: 90%;
+}
+
+.form-container .chat-box-middle {
+  border-top: none;
+  border-bottom: none;
+}
+
+.form-container .chat-box .chat-one, .form-container .chat-box-middle .chat-one  {
+  padding: 30px 40px 0px 40px;
+  overflow: hidden;
+}
+
+.form-container .chat-box .chat-one .h3, .form-container .chat-box-middle .chat-one .h3 {
+  font-weight: 300;
+}
+
+/* pagination */
+
+.pagination {
+  display: flex;
+  gap: 1em;
+  padding-left: 78px;
+  padding-top: 3em;
+}
+
+.pagination .page-box {
+  border: 1px solid #bababa;
+  height: 3.7em;
+  width: 4em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pagination .page-box:hover {
+  background: black;
+}
+
+.pagination .page-box h4 {
+  margin: auto;
+  padding: 15px;
+  color: #bababa;
+}
+
+.pagination .page-box h4:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .form-container .input-box input {
+    width: 100%;
+  }
+
+  .form-container .chat-box, .form-container .chat-box-middle {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .pagination {
+    padding: 0;
+    padding-top: 10px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form-container {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .form-container .input-box input {
+    width: 100%;
+  }
+
+  .form-container .chat-box {
+    overflow: hidden;
+  }
+
+  .pagination {
+    gap: 5px;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .page-title p {
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .page-title h1 {
+    font-size: 2.5em;
+  }
+
+}

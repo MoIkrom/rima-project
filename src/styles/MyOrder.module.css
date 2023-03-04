@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lato&display=swap");
+
+.cont-fluid {
+  background-image: url("../assets/background/background.png");
+}
+
+.profile {
+  font-weight: 400;
+
+  font-family: Arimo;
+  font-style: Regular;
+  font-size: 56px;
+  line-height: 64px;
+  line-height: 100%;
+  vertical-align: Top;
+  fill: Solid #1a1a1a;
+}
+.text-profile {
+  font-weight: 400;
+  margin-top: 1.6rem;
+  font-family: Arimo;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 64px;
+  line-height: 100%;
+  vertical-align: Top;
+  fill: Solid #1a1a1a;
+}
+
+.cont-form {
+  width: 40%;
+  margin-top: 5rem;
+}
+.input {
+  display: flex;
+  gap: 0.5rem;
+}
+.checkbox {
+  margin-top: 2px;
+}
+
+.inventory {
+  font-family: arimo;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 24px;
+  margin-bottom: 1rem !important;
+}
+.cursor {
+  cursor: pointer;
+}
+.color-text {
+  color: #1a1a1a;
+  font-family: arimo;
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 500;
+}
+.color-text:hover {
+  color: #1a1a1a;
+  margin-bottom: 2px solid black;
+}
+
+#dropdown-basic {
+  border: none;
+}
+.image {
+  width: 40%;
+}
+.btn {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  width: 40%;
+  height: 3rem;
+  font-family: arimo;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: bold;
+}

@@ -1,0 +1,469 @@
+.page-title {
+  position: relative;
+  background-image: url(../assets/background/bg.png);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.icon-eye {
+  position: absolute;
+  right: 185px;
+  top: 85px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.input__ {
+  width: 80%;
+}
+
+.form__bar {
+  position: relative;
+}
+
+.page-title::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: white;
+  z-index: -1;
+  opacity: .9;
+}
+
+.page-title h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #1A1A1A;
+}
+
+.page-title p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1A1A1A;
+  padding: 1rem 0;
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.login-account h1,
+.regist-account h1 {
+  color: #B4B4B4;
+  font-size: 2.5rem;
+  font-weight: 400;
+  user-select: none;
+  cursor: pointer;
+  padding-bottom: .5rem;
+}
+
+.login-account h1:hover,
+.regist-account h1:hover {
+  color: #1A1A1A;
+  border-bottom: 2px solid #B4B4B4;
+}
+
+.regist-account h1.selected {
+  color: #1A1A1A;
+  border-bottom: 2px solid #B4B4B4;
+}
+
+.form-container {
+  padding: 2rem 0 7rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .title-form {
+  padding-bottom: 2rem;
+}
+
+.form .title-form h1 {
+  font-size: 2.5rem;
+  color: #1A1A1A;
+  font-weight: 400;
+}
+
+.form .form-login form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.form .form-login input {
+  padding: 1rem;
+  border: 1px solid #CECECE;
+  max-width: 75%;
+}
+
+.form .form-login p {
+  font-size: 1rem;
+  color: #D25B5B;
+  cursor: pointer;
+  user-select: none;
+}
+
+.form .form-login .radio {
+  display: flex;
+  gap: 2rem;
+}
+
+.form .form-login .radio .input {
+  display: flex;
+  gap: .5rem;
+}
+
+.form .form-login .radio .input label {
+  font-size: .8rem;
+  font-weight: 400;
+  color: #4A4141;
+}
+
+.form .btn-login {
+  padding-top: 1rem;
+}
+
+.form .btn-login button {
+  border: none;
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  padding: .5rem 2rem;
+}
+
+.form .btn-login button:active {
+  position: relative;
+  top: .2rem;
+}
+
+
+/* verify form style */
+
+.form-container-verify {
+  padding: 2rem 0 7rem;
+  justify-content: center;
+}
+
+.form-verify {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-verify .title-form-verify {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.form-verify .title-form-verify h1 {
+  font-size: 2.5rem;
+  color: #1A1A1A;
+  font-weight: 400;
+}
+
+.form-verify .form-login-verify form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.form-verify .form-login-verify input {
+  padding: 1rem;
+  border: 1px solid #CECECE;
+  width: 100%;
+}
+
+.form-verify .form-login-verify p {
+  font-size: 1rem;
+  color: #D25B5B;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.form-verify .form-login-verify .radio .input label {
+  font-size: .8rem;
+  font-weight: 400;
+  color: #4A4141;
+}
+
+.form-verify .btn-verify {
+  padding-top: 1rem;
+}
+
+.form-verify .btn-verify button {
+  border: none;
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  padding: .5rem 2rem;
+  width: 100%;
+}
+
+.form-verify .btn-verify button:active {
+  position: relative;
+  top: .2rem;
+}
+
+/* username form style */
+
+.form-container-username {
+  padding: 2rem 0 7rem;
+  justify-content: center;
+}
+
+.form-username {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-username .title-form-username {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.form-username .title-form-username h1 {
+  font-size: 2.5rem;
+  color: #1A1A1A;
+  font-weight: 400;
+}
+
+.form-username .form-login-username form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.form-username .form-login-username input {
+  padding: 1rem;
+  border: 1px solid #CECECE;
+  width: 100%;
+}
+
+.form-username .form-login-username p {
+  font-size: 1rem;
+  color: #D25B5B;
+  cursor: pointer;
+  user-select: none;
+}
+
+.form-username .form-login-username .radio .input label {
+  font-size: .8rem;
+  font-weight: 400;
+  color: #4A4141;
+}
+
+.form-username .btn-username {
+  padding-top: 1rem;
+}
+
+.form-username .btn-username button {
+  border: none;
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  padding: .5rem 2rem;
+  width: 100%;
+}
+
+.form-username .btn-username button:active {
+  position: relative;
+  top: .2rem;
+}
+
+.loader-container {
+  /* position: fixed; */
+  top: 50%;
+  height: 15rem;
+  bottom: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.errmsg {
+  color: red;
+  text-align: left;
+}
+
+.errmsg2 {
+  color: red;
+  text-align: center;
+}
+
+.spinner {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  padding: 0px;
+  border-radius: 100%;
+  border: 5px solid;
+  border-top-color: #000000;
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+  border-left-color: #000000;
+  border-right-color: rgba(255, 255, 255, 0.3);
+  -webkit-animation: spinner 1s ease-in-out infinite;
+  animation: spinner 1s ease-in-out infinite;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spinner {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+/* responsive */
+
+@media screen and (max-width:768px) {
+  .account {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .form-container,
+  .form-container-verify {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .page-title p {
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .page-title h1 {
+    font-size: 2.5em;
+  }
+
+  .form-container,
+  .form-container-verify {
+    padding: 2rem;
+  }
+
+  .account {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .login-account h1,
+  .regist-account h1 {
+    font-size: 1rem;
+  }
+
+  .form .title-form {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .form .title-form h1 {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .form .form-login input {
+    max-width: 100%;
+  }
+
+  .form .btn-login button {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:1200px) {
+
+  .icon-eye {
+    right: 155px;
+    top: 85px;
+  }
+}
+
+
+
+@media screen and (max-width:992px) {
+
+  .icon-eye {
+    right: 140px;
+    top: 85px;
+  }
+}
+
+@media screen and (max-width:800px) {
+
+  .icon-eye {
+    right: 220px;
+    top: 85px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .icon-eye {
+    right: 220px;
+    top: 85px;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  .icon-eye {
+    right: 185px;
+    top: 85px;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .icon-eye {
+    right: 185px;
+    top: 85px;
+  }
+}
+
+@media screen and (max-width:577px) {
+
+  .icon-eye {
+    right: 140px;
+    top: 85px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .input__ {
+    width: 100%;
+  }
+
+  .icon-eye {
+    right: 12px;
+    top: 85px;
+  }
+}

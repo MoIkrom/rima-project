@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lato&display=swap");
+
+
+.icon-eye {
+  position: absolute;
+  right: 25px;
+  top: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-eye-invisible {
+  position: absolute;
+  right: 20px;
+  top: 147px;
+  display: flex;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+.profile-picture {
+  cursor: pointer;
+}
+
+.icon-eye-invisible_confirm {
+  position: absolute;
+  right: 20px;
+  top: 220px;
+  display: flex;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.input__password {
+  height: inherit;
+}
+
+.cont-fluid {
+  background-image: url("../assets/background/bg.png");
+}
+
+.floating-form {
+  height: 80px !important;
+  border-radius: 0px;
+}
+
+.floating-form-2 {
+  height: 80px !important;
+  border-radius: 0px;
+  border-top: 0px;
+}
+
+.floating-form-3 {
+  height: 80px !important;
+  border-radius: 0px;
+  border-top: 0px;
+}
+
+.profile {
+  font-weight: 400;
+
+  font-family: Arimo;
+  font-style: Regular;
+  font-size: 56px;
+  line-height: 64px;
+  line-height: 100%;
+  vertical-align: Top;
+  fill: Solid #1a1a1a;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.cursor {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.svg {
+  width: 21px;
+  height: 21px;
+  position: relative;
+  top: 20px;
+  right: -20px
+}
+
+.buttons {
+  width: 100%;
+}
+
+.pencil {
+  width: 21px;
+  height: 21px;
+  position: relative;
+  top: -50px;
+  right: -30px;
+}
+
+.text-profile {
+  font-weight: 400;
+  font-family: Arimo;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 64px;
+  line-height: 100%;
+  vertical-align: Top;
+  fill: Solid #1a1a1a;
+  padding-top: 25px;
+}
+
+.logout {
+  width: 210px;
+  height: 70px;
+  font: Arimo;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.4px;
+  fill: Solid #ffffff;
+  transition: all 0.3s;
+}
+
+.logout:hover {
+  transform: scale(1.050);
+}
+
+.edit-text:hover {
+  color: salmon;
+}
+
+/* .cursor:hover {
+  transform: scale(1.2);
+
+} */
+
+
+.floating-form:disabled {
+  background-color: #ffffff;
+}
+
+.logout-icon {
+  width: 30px;
+  color: #ffffff;
+}
+
+.edit-svg {
+  width: 20px;
+}
+
+.cont-edit {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
+.edit-text {
+  font: Arimo;
+  font-weight: 700;
+  font-size: 16px !important;
+  line-height: 18.4px;
+  fill: Solid #1a1a1a;
+  padding-top: 5px;
+}
+
+.username {
+  border: none;
+  width: 100%;
+}
+
+
+
+/* navbar admin */
+.color-text {
+  color: #1a1a1a;
+  font-family: arimo;
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 500;
+}
+
+.color-text:hover {
+  color: #1a1a1a;
+}
+
+.menu {
+  color: #1a1a1a !important;
+}
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: #000000 !important;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.color {
+  color: #000000 !important;
+}
+
+/* navbar admin */
+
+
+
+/* modal password */
+.input__password {
+  height: 50px;
+
+}
+
+/*Any Mobile Device*/
+@media only screen and (max-width: 767px) {
+  .buttons {
+    margin: 25px 0;
+  }
+
+  .logout {
+    width: 100%;
+  }
+}

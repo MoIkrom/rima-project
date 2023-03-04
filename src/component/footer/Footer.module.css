@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lato&display=swap");
+
+.company {
+  font-family: arimo;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 50px;
+  line-height: 69px;
+  line-height: 100%;
+  fill: Solid;
+  color: #ffffff;
+}
+.text-copyright {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 30px;
+  line-height: 208%;
+  letter-spacing: 1.71px;
+  fill: Solid;
+  color: #b4b4b4;
+}
+.title-footer {
+  font-family: arimo;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  fill: Solid;
+  color: #ffffff;
+}
+.li {
+  font-family: arimo;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 48px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  fill: Solid;
+  color: #b4b4b4;
+}
+
+.svg {
+  width: 30px;
+  padding: 5px;
+  margin-right: 5px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.text-footer {
+  font-family: arimo;
+  font-style: regular;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  line-height: 100%;
+  fill: Solid;
+  color: #b4b4b4;
+}
+
+@media only screen and (max-width: 768px) {
+  .image-icon {
+    width: 25px;
+  }
+  .icon {
+    width: 25px;
+    margin-right: 0px;
+  }
+
+  .title-footer {
+    margin-top: 0rem;
+    font-size: 12px;
+  }
+  .text-footer {
+    font-size: 12px;
+  }
+  .img-right {
+    width: 40px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .svg {
+    width: 30px;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+}

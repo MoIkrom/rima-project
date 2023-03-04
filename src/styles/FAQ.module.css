@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lato&display=swap");
+
+.cont-fluid {
+  background-image: url("../assets/background/bg.png");
+}
+
+.faq {
+  font-family: Arimo;
+  font-style: Regular;
+  font-size: 56px;
+  line-height: 64px;
+  line-height: 100%;
+  color: #1a1a1a;
+}
+
+.text-faq {
+  font-family: Arimo;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 64px;
+  line-height: 100%;
+  color: #1a1a1a;
+  margin-top: 15px;
+}
+
+.desc {
+  font-family: Arimo;
+  font-style: Regular;
+  line-height: 28px;
+  line-height: 100%;
+  vertical-align: Top;
+}
+
+.cont-icon {
+  margin-top: 7rem !important;
+}
+
+.svg {
+  width: 40px;
+  /* border: 2px solid grey; */
+}
+
+.circle {
+  padding: 5px;
+}
+
+.line {
+  border-bottom: 1px solid #cccccc;
+  width: 100px;
+  position: relative;
+  top: -10px;
+  /* left: 10px; */
+}
+
+.cont-contact-us {
+  margin-top: 10rem !important;
+}
+
+.btn-text {
+  font-family: Arimo;
+  font-style: Bold;
+  line-height: 14px;
+  line-height: 100%;
+  vertical-align: Top;
+  fill: Solid;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 8rem !important;
+}
+
+.font {
+  font-family: arimo;
+  font-style: regular;
+  font-size: 32px;
+  line-height: 100%;
+  vertical-align: Top;
+  fill: Solid;
+  color: #1a1a1a;
+}

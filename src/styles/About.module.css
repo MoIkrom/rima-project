@@ -1,0 +1,150 @@
+.slick-dots li.slick-active button:before {
+    font-size: 15px;
+}
+
+.breadcrumb__bar {
+    background-image: url("../assets/background/bg.png");
+    height: 250px;
+    padding: 40px 80px;
+}
+
+.breadcrumb a {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.play {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.content_left {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #1A1A1A;
+}
+
+.content_left p {
+    width: 85%;
+}
+
+/* choose */
+.choose p {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.choose h4 {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+/* team */
+.img_team {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.name {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A1A1A;
+    padding: 20px 0;
+}
+
+.jobs {
+    font-family: 'Arimo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #919191;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+/* testi */
+.img_user {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.testimoni__bar {
+    background: #F9F9F9;
+    padding-top: 80px;
+    margin-top: 100px;
+    height: 600px;
+}
+
+.testimoni {
+    padding: 3% 5%;
+}
+
+.testimoni {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 55px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.name_testi {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #4D4D4D;
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+    .testimoni__bar {
+        padding-top: 0px;
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .testimoni__bar {
+        padding-top: 0px;
+        height: 600px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .testimoni__bar {
+        padding-top: 0px;
+        height: auto;
+        margin-bottom: 100px;
+    }
+}
