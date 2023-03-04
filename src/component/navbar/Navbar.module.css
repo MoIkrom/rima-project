@@ -20,6 +20,28 @@
   fill: Solid;
   color: #1a1a1a !important;
 }
+.btn-div {
+  display: flex;
+  gap: 30px;
+}
+.btn-login {
+  width: 100px;
+  height: 40px;
+}
+.btn-login:hover {
+  background-color: rgb(243, 243, 243);
+  color: black;
+}
+.btn-login2 {
+  width: 100px;
+  background-color: #1a1a1a;
+  color: aliceblue !important;
+}
+.btn-login2:hover {
+  background-color: rgb(34, 34, 34);
+  color: black;
+}
+
 .cursor {
   cursor: pointer;
 }
